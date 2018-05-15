@@ -78,7 +78,7 @@ public class MainScreen extends JFrame {
 		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
 		contentPane.setLayout(gbl_contentPane);
 		//PlayAudio.play("Jeapordy Music.wav");
-		
+				
 		JLabel lblScore = new JLabel("");
 		GridBagConstraints gbc_lblScore = new GridBagConstraints();
 		gbc_lblScore.insets = new Insets(0, 0, 0, 5);
